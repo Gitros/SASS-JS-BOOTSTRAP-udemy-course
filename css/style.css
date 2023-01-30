@@ -1,3 +1,7 @@
+.test {
+  background-color: #fff;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,16 +19,4 @@ body {
   height: 200px;
   border-radius: 25px;
   border: 5px solid black;
-}
-
-.one {
-  background-color: tomato;
-}
-
-.two {
-  background-color: lime;
-}
-
-.three {
-  background-color: royalblue;
 }/*# sourceMappingURL=style.css.map */
