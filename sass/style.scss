@@ -1,15 +1,15 @@
-$colors: (
-    left:lime,
-    middle:gold,
-    right: tomato
-);
+@mixin addons {
+    border-radius: 25px;
+    background-color: gold;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    height: 100vh;
     font-family: sans-serif;
     background-color: #333;
 }
@@ -19,16 +19,5 @@ body {
     width: 200px;
     height: 200px;
     border: 5px solid black;
-}
-
-.item1 {
-    background-color: map-get($colors, left);
-}
-
-.item2 {
-    background-color: map-get($colors, middle);
-}
-
-.item3 {
-    background-color: map-get($colors, right);
+    @include addons;
 }
