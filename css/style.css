@@ -1,13 +1,7 @@
-:root {
-  --main-color: lime;
-  --new-super-cool-size: 60px;
-}
-
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   height: 100vh;
   font-family: sans-serif;
   background-color: darkblue;
@@ -22,7 +16,7 @@ body {
 }
 
 .color1 {
-  background-color: var(--main-color);
+  background-color: lime;
 }
 
 .color2 {
@@ -30,7 +24,7 @@ body {
 }
 
 .color3 {
-  background-color: var(--main-color);
+  background-color: lime;
 }
 
 .color4 {
@@ -38,7 +32,5 @@ body {
 }
 
 .color5 {
-  background-color: var(--main-color);
-}
-
-/*# sourceMappingURL=style.css.map */
+  background-color: lime;
+}/*# sourceMappingURL=style.css.map */
