@@ -1,14 +1,5 @@
 @import 'colors';
 
-@mixin color ($bg-color) {
-    $bg-color: gold;
-}
-
-@mixin size ($size) {
-    height: $size;
-    width: $size;
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
