@@ -1,9 +1,11 @@
-$main-color: lime;
+$first-color: red;
+$second-color: gold;
 
 body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
     font-family: sans-serif;
     background-color: darkblue;
@@ -18,21 +20,17 @@ body {
 }
 
 .color1 {
-    background-color: $main-color;
+    background-color: $first-color;
 }
 
 .color2 {
-    background-color: royalblue;
+    background-color: $second-color;
 }
 
 .color3 {
-    background-color: $main-color;
+    background-color: $first-color;
 }
 
 .color4 {
-    background-color: royalblue;
-}
-
-.color5 {
-    background-color: $main-color;
+    background-color: $second-color;
 }
