@@ -1,18 +1,36 @@
-nav {
-    ul {
-        list-style: none;
-    }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: darkblue;
+}
 
-    li {
-        background-color: red;
-        font-size: 30px;
-    }
+.box {
+    margin: 20px auto;
+    width: 50%;
+    height: 60px;
+    border: 3px solid black;
+    border-radius: 25px;
+}
 
-    ul {
-        li {
-            a {
-                text-align: center;
-            }
-        }
-    }
+.color1 {
+    background-color: tomato;
+}
+
+.color2 {
+    background-color: royalblue;
+}
+
+.color3 {
+    background-color: tomato;
+}
+
+.color4 {
+    background-color: royalblue;
+}
+
+.color5 {
+    background-color: tomato;
 }
