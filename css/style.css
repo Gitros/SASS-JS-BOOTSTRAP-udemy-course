@@ -3,20 +3,31 @@ html {
   font-size: 10px;
 }
 
+.odd {
+  background-color: blue;
+}
+
+.even {
+  background-color: aqua;
+}
+
 body {
   font-family: sans-serif;
 }
 
 h1 {
   font-size: 3rem;
+  color: gold;
 }
 
 h2 {
   font-size: 2.4rem;
+  color: gold;
 }
 
 h3 {
   font-size: 1.8rem;
+  color: gold;
 }
 
 p {
