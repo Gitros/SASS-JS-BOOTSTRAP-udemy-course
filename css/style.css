@@ -1,4 +1,9 @@
-@import url(/sass/reset.scss);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-size: 10px;
 }
@@ -35,6 +40,15 @@ p {
 }
 
 section {
-  height: 25%;
+  height: 25vh;
   text-align: center;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  margin: 30px auto;
+  background-color: lime;
+  border: 3px solid black;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
