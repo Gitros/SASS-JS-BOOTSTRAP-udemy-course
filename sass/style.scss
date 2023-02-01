@@ -1,10 +1,30 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+@import url(/sass/reset.scss);
+
+html {
+    font-size: 10px;
 }
 
 body {
     font-family: sans-serif;
-    background-color: #333;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 16px;
+}
+
+section {
+    height: 25%;
+    text-align: center;
 }
