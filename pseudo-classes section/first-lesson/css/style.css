@@ -10,4 +10,8 @@ body {
   font-size: 30px;
   color: #fff;
   background-color: #333;
+}
+
+p:nth-child(2n+1) {
+  color: lime;
 }/*# sourceMappingURL=style.css.map */

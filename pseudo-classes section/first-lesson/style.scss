@@ -11,3 +11,18 @@ body {
     color: #fff;
     background-color: #333;
 }
+
+//odd
+//even
+//2n / 3n / 8n
+// 2n + 1 / 5n+2
+
+p:nth-child(2n + 1) {
+    color: lime;
+}
+
+// n = od 0 do +nieskonczonosc
+
+// 2*0 = 0
+// 2*1 = 2
+// 2*2 = 4
