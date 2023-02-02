@@ -4,18 +4,6 @@
   padding: 0;
 }
 
-html {
-  font-size: 10px;
-}
-
-.odd {
-  background-color: blue;
-}
-
-.even {
-  background-color: aqua;
-}
-
 body {
   font-family: sans-serif;
 }
@@ -25,30 +13,21 @@ h1 {
   color: gold;
 }
 
+.circle {
+  margin: 30px auto;
+  width: 100px;
+  height: 100px;
+  background-color: lime;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
 h2 {
-  font-size: 2.4rem;
+  font-size: 2.4em;
   color: gold;
-}
-
-h3 {
-  font-size: 1.8rem;
-  color: gold;
-}
-
-p {
-  font-size: 16px;
 }
 
 section {
   height: 25vh;
   text-align: center;
-}
-
-.circle {
-  width: 100px;
-  height: 100px;
-  margin: 30px auto;
-  background-color: lime;
-  border: 3px solid black;
-  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
