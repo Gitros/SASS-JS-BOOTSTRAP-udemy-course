@@ -10,4 +10,14 @@ body {
   font-size: 30px;
   color: #fff;
   background-color: #333;
+}
+
+a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+[href="apple.com"] {
+  color: gold;
 }/*# sourceMappingURL=style.css.map */
