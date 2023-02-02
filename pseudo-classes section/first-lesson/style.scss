@@ -11,23 +11,3 @@ body {
     color: #fff;
     background-color: #333;
 }
-
-div {
-    margin: 50px;
-}
-
-p:first-child {
-    color: yellowgreen;
-}
-
-p:last-child {
-    color: greenyellow;
-}
-
-p:first-of-type {
-    color: royalblue;
-}
-
-p:last-of-type {
-    color: tomato;
-}
