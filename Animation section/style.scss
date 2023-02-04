@@ -13,27 +13,38 @@ body {
 
 }
 
-.square {
-    width: 400px;
-    height: 400px;
-    background-color: gold;
+.square,
+.circle {
+    width: 300px;
+    height: 300px;
     border: 3px solid black;
-    animation: color 2s ease-in-out 3s 3;
 }
 
-@keyframes color {
-    0% {
-        width: 400px;
-        background-color: gold;
-    }
+.square {
+    background-color: red;
+    animation: square 4s forwards;
+}
 
+.circle {
+    border-radius: 50%;
+    background-color: green;
+    animation: circle 2s 4.1s;
+}
+
+@keyframes square {
     50% {
-        width: 800px;
-        background-color: royalblue;
+        width: 600px;
     }
 
     100% {
-        width: 200px;
-        background-color: lime;
+        width: 300px;
+        height: 600px;
+        background-color: gold;
+    }
+}
+
+@keyframes circle {
+    to {
+        background-color: blue;
     }
 }
