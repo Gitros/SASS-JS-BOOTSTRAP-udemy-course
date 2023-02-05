@@ -8,4 +8,33 @@ body {
   background-color: #333;
   font-size: 30px;
   color: #fff;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  font-size: 50px;
+  color: black;
+  background-color: gold;
+  border: 3px solid black;
+}
+
+.one {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.two {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.three {
+  display: flex;
+  flex-direction: column-reverse;
 }/*# sourceMappingURL=style.css.map */
