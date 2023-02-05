@@ -8,21 +8,4 @@ body {
   background-color: #333;
   font-size: 30px;
   color: #fff;
-}
-
-.square {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 300px;
-  height: 300px;
-  font-size: 50px;
-  background-color: gold;
-  border: 3px solid black;
-  color: black;
-}
-
-section {
-  display: flex;
-  flex-flow: column nowrap;
 }/*# sourceMappingURL=style.css.map */
