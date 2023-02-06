@@ -13,12 +13,9 @@ body {
 
 section {
   display: flex;
-  justify-content: flex-start;
-  justify-content: flex-end;
-  justify-content: center;
-  justify-content: space-between;
-  justify-content: space-around;
-  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #666;
 }
 
 .square {
