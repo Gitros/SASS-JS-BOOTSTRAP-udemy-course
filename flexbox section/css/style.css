@@ -15,7 +15,7 @@ section {
 }
 
 .square {
-  width: 150px;
+  width: 300px;
   height: 150px;
   line-height: 150px;
   text-align: center;
@@ -23,12 +23,12 @@ section {
 
 .one {
   background-color: gold;
-  flex-grow: 1;
+  flex-shrink: 0;
 }
 
 .two {
   background-color: lime;
-  flex-grow: 1;
+  flex-shrink: 3;
 }
 
 .three {
