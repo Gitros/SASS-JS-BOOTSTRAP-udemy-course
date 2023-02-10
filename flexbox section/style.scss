@@ -38,3 +38,53 @@ section {
 .four {
     background-color: tomato;
 }
+
+.first {
+    flex-direction: column;
+
+    .two {
+        flex-grow: 1;
+    }
+
+    .four {
+        flex-grow: 1;
+    }
+}
+
+.second {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.third {
+    .one {
+        order: 4;
+        flex-grow: 1;
+    }
+
+    .two {
+        order: 3;
+    }
+
+    .three {
+        order: 1;
+    }
+
+    .four {
+        order: 2;
+        flex-grow: 3;
+    }
+}
+
+.fourth {
+    flex-direction: row-reverse;
+    align-items: flex-end;
+
+    .two {
+        align-self: flex-start;
+    }
+
+    .four {
+        align-self: center;
+    }
+}
