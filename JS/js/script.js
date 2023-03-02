@@ -1,3 +1,23 @@
-const p = document.querySelector('p')
+const redBtn = document.getElementById('btn1');
+const blueBtn = document.querySelector('.btn2');
+const square = document.querySelector('.color');
+const removeColorBtn = document.querySelector('.remove-color');
 
-console.log(p);
+function redColor() {
+    square.classList.add('red');
+    square.classList.remove('blue');
+}
+
+function blueColor() {
+    square.classList.add('blue');
+    square.classList.remove('red');
+}
+
+redBtn.addEventListener('click', redColor);
+blueBtn.addEventListener('click', blueColor);
+
+function deleteColor() {
+    square.classList.remove('red', 'blue');
+}
+
+removeColorBtn.addEventListener('click', deleteColor)
