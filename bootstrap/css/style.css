@@ -11,8 +11,10 @@ body {
   color: #fff;
 }
 
-.container {
-  padding: 10px 20px;
-  border: 5px solid #fff;
-  font-size: 24px;
+div {
+  display: inline-block;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
 }/*# sourceMappingURL=style.css.map */
