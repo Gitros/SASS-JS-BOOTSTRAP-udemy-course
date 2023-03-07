@@ -8,12 +8,16 @@ body {
     margin: 50px;
     height: 100vh;
     background-color: #333;
-    font-size: 46px;
+    font-size: 36px;
 }
 
 div {
-    margin: 5px;
-    padding: 20px;
-    background-color: #ddd;
-    border: 2px solid black;
+    width: 800px;
+    height: 300px;
+}
+
+.inside {
+    height: 300px;
+    background-color: gold;
+    width: 300px;
 }
