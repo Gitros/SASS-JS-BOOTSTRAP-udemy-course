@@ -18,8 +18,13 @@ body {
     color: $blue-color;
 }
 
+.shadow-bg {
+    background-color: rgba(0, 0, 0, .8);
+}
+
 nav {
     text-transform: uppercase;
+    transition: background-color .6s;
     z-index: 1;
 
     a,
@@ -51,6 +56,11 @@ header {
 
     h1 {
         text-transform: uppercase;
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 14px;
     }
 
     .hero-img {
@@ -95,6 +105,33 @@ header {
         color: $white;
     }
 }
+
+@media(min-width:375px) {
+    header {
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+}
+
+@media(min-width:768px) {
+    header {
+        h1 {
+            font-size: 42px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+}
+
 
 @media(min-width:1200px) {
     header {
