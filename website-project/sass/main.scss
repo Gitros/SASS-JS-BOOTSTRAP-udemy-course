@@ -20,6 +20,7 @@ body {
 
 nav {
     text-transform: uppercase;
+    z-index: 1;
 
     a,
     i {
@@ -59,7 +60,7 @@ header {
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
-        z-index: -2;
+        z-index: 0;
     }
 
     .hero-shadow {
@@ -79,6 +80,19 @@ header {
         z-index: 5;
         padding: 10px;
         text-align: center;
+    }
+
+    .btn-outline-light {
+        text-transform: uppercase;
+    }
+
+    .fa-chevron-down {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 30px;
+        bottom: 20px;
+        color: $white;
     }
 }
 

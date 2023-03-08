@@ -18,6 +18,7 @@ body {
 
 nav {
   text-transform: uppercase;
+  z-index: 1;
 }
 nav a,
 nav i {
@@ -49,7 +50,7 @@ header .hero-img {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  z-index: -2;
+  z-index: 0;
 }
 header .hero-shadow {
   position: absolute;
@@ -67,6 +68,17 @@ header .hero-text {
   z-index: 5;
   padding: 10px;
   text-align: center;
+}
+header .btn-outline-light {
+  text-transform: uppercase;
+}
+header .fa-chevron-down {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+  bottom: 20px;
+  color: #fff;
 }
 
 @media (min-width: 1200px) {
