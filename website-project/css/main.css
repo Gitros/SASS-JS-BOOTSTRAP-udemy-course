@@ -12,6 +12,18 @@ body {
   position: relative;
 }
 
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  margin: 0 auto 40px;
+  width: 60px;
+  height: 4px;
+  background-color: #039dff;
+}
+
 .blue-text {
   color: #039dff;
 }
@@ -88,6 +100,18 @@ header .fa-chevron-down {
   font-size: 30px;
   bottom: 20px;
   color: #fff;
+}
+
+main .aboutus i {
+  margin-top: 20px;
+  font-size: 30px;
+}
+main .aboutus .aboutus-card-title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+main .aboutus .aboutus-card-text {
+  font-size: 14px;
 }
 
 @media (min-width: 375px) {
