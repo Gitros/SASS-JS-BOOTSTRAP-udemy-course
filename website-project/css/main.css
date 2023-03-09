@@ -143,6 +143,15 @@ main .aboutus .about-us-hover:hover {
   background-color: rgba(0, 0, 0, 0.7);
   z-index: -5;
 }
+.aboutus-hero .about-us-hero-item {
+  margin: 10px 0;
+}
+.aboutus-hero .about-us-hero-item i {
+  font-size: 36px;
+}
+.aboutus-hero .about-us-hero-item .aboutus-hero-title {
+  font-size: 24px;
+}
 
 @media (min-width: 375px) {
   header h1 {
@@ -163,6 +172,9 @@ main .aboutus .about-us-hover:hover {
 @media (min-width: 992px) {
   html {
     scroll-padding-top: 72px;
+  }
+  .aboutus-hero {
+    background-image: url(/img/technology-2818664.jpg);
   }
 }
 @media (min-width: 1200px) {

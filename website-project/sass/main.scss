@@ -153,17 +153,16 @@ main {
 }
 
 .aboutus-hero {
-
-    h2 {
-        text-transform: uppercase;
-    }
-
     position: relative;
     background-image: url(/img/technology-2818664_640.jpg);
     background-position: center;
     background-size: cover;
     color: $light-gray;
     z-index: 0;
+
+    h2 {
+        text-transform: uppercase;
+    }
 
     .aboutus-shadow {
         position: absolute;
@@ -172,6 +171,18 @@ main {
         height: 100%;
         background-color: rgba(0, 0, 0, .7);
         z-index: -5;
+    }
+
+    .about-us-hero-item {
+        margin: 10px 0;
+
+        i {
+            font-size: 36px;
+        }
+
+        .aboutus-hero-title {
+            font-size: 24px;
+        }
     }
 }
 
@@ -205,6 +216,10 @@ main {
 @media(min-width:992px) {
     html {
         scroll-padding-top: 72px;
+    }
+
+    .aboutus-hero {
+        background-image: url(/img/technology-2818664.jpg);
     }
 }
 
