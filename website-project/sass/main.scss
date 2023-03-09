@@ -8,6 +8,10 @@
     padding: 0;
 }
 
+html {
+    scroll-padding-top: 82px;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #444;
@@ -122,6 +126,8 @@ main {
 
     .aboutus {
 
+
+
         i {
             margin-top: 20px;
             font-size: 30px;
@@ -134,6 +140,14 @@ main {
 
         .aboutus-card-text {
             font-size: 14px;
+        }
+
+        .about-us-hover {
+            transition: color .3s;
+        }
+
+        .about-us-hover:hover {
+            color: $main-color;
         }
     }
 }
@@ -162,6 +176,12 @@ main {
         }
     }
 
+}
+
+@media(min-width:992px) {
+    html {
+        scroll-padding-top: 72px;
+    }
 }
 
 
