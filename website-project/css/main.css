@@ -204,6 +204,13 @@ main .aboutus .about-us-hover:hover {
   text-decoration: none;
 }
 
+.card-group .card-footer {
+  padding: 5px;
+}
+.card-group .card-footer i {
+  color: #039dff;
+}
+
 @media (min-width: 375px) {
   header h1 {
     font-size: 36px;

@@ -252,6 +252,18 @@ main {
     }
 }
 
+.card-group {
+
+    .card-footer {
+        padding: 5px;
+
+        i {
+            color: $main-color;
+        }
+
+    }
+}
+
 
 @media(min-width:375px) {
     header {
